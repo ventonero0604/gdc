@@ -1,14 +1,196 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="./scss/style.scss">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  {{> webFont}}
+  <link rel="stylesheet" href="./scss/style.scss">
+</head>
+
+<body>
+  <main class="Top">
     {{> header}}
-    <script type="module" src="./js/main.js"></script>
-   </body>
+
+    <section class="Top_main">
+      <div class="Top_main_container">
+        <div class="Top_main_container_top">
+          <div class="Top_title">
+            <h2>
+              <img src="/img/ttl_top_main.svg" alt="">
+            </h2>
+            <p>
+              土壌の生物性について、より迅速に、<br>
+              安価に測定する「土壌微生物多様性・活性値（BIOTREX）」<br>
+              という世界初の科学的な分析技術をご紹介いたします。
+            </p>
+          </div>
+        </div>
+        <div class="Top_lead">
+          <img src="/img/ttl_main_lead.svg" alt="">
+          <p>化学物質の乱用による土壌汚染や連作障害により、<br>
+            痩せていく土。<br>
+            一方で、試行錯誤を繰り返し、作物に適した豊かな土壌を<br>
+            作り上げている生産者の方々がいます。土は命を育むもの。<br>
+            多様な生物が活発に活動している土こそが、<br>
+            これからの時代の「よい土」であると考えています。</p>
+          <p>そして、その「よい土」から採れた、<br>
+            生き物の息吹を感じる農産物は、<br>
+            「本当においしいもの」ではないかと考えています。</p>
+          <p>わたしたちは、土壌の「微生物多様性・活性値」<br>（BIOTREX）という新たな指標を提案します。</p>
+        </div>
+        <div class="Top_movie">
+          <video src="./img/main.mp4" autoplay muted loop></video>
+        </div>
+        <div class="ScrollDown"><img src="/img/txt_scroll.svg" alt="SCROLL"></div>
+      </div>
+    </section>
+
+    <div class="Top_contents">
+
+
+      <section class="Top_soilPJ">
+        <div class="l_container">
+          <div class="Top_soilPJ_header">
+            <img src="/img/logo_top_soil_project.svg" alt="">
+            <div class="Top_soilPJ_texts">
+              <h3 class="Top_soilPJ_lead">
+                つながる！SOIL PROJECT
+              </h3>
+              <p class="Top_soilPJ_text">よい土をつくり続ける人と、「おいしい！」と感動する人をつなげるのは、SOILマーク。<br>持続可能な未来につながる、その印にご注目ください。</p>
+            </div>
+          </div>
+          <a class="BlockLink BlockLink-white" href="#">
+            <div class="BlockLink_text">
+              <p>SOIL PROJECTとは？</p>
+              <span>What’s SOIL PROJECT</span>
+            </div>
+          </a>
+          <p class="Top_soilPJ_footer">
+            【ご注意ください】類似サービスや弊社の代理店を名乗る業者等にご注意ください。弊社および正規代理店は分析やコンサルティングの押し売りは絶対にいたしません。特定の農法や資材の押し売りもしません。また、弊社の分析結果を正しく表示せず資材を販売する業者にもご注意ください。またSoilProjectは土壌が生物的に豊かな土で育った農産物や土壌の生物性を向上させる資材を見える化するプロジェクトであり、農産物認証ではありません。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="l_container">
+          <div class="SectionTitle">
+            <small>わたしたちの取り組み</small>
+            <h2>現代農法の盲点だった土の「生物性」</h2>
+            <span>Soil Biology, a blind spot of modern farming</span>
+          </div>
+
+          <ul class="ImageList mt-30">
+            <li>
+              <div class="wrapper">
+                <div class="text">
+                  <h3 class="title">土壌微生物多様性・<br>活性値（BIOTREX）</h3>
+                  <p>良い土をつくるためには、努力が必要です。<br>
+                    土壌微生物多様性・活性値（BIOTREX）とは、土の中でどれだけ多彩な種類の微生物がどれだけ元気に活動しているかを表した数字。土の健康状態を計るひとつのバロメータです。</p>
+                </div>
+                <div class="image">
+                  <img src="/img/img_top_1.png" alt="">
+                  <p class="imageVerticalText">土の健康状態を計る<br />バロメーター</p>
+                </div>
+              </div>
+              <a class="BlockLink" href="#">
+                <div class="BlockLink_text">
+                  <p>土壌分析サービス</p>
+                  <span>Soil analysis service</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="wrapper">
+                <div class="text">
+                  <h3 class="title">SOIL PROJECT農産物<br>匠の土づくり</h3>
+                  <p>自然と対話しながら、たゆまぬ努力で作り上げられた土。<br>
+                    そんな匠の技の結晶ともいえる土には、多様な微生物が元気に活躍しています。</p>
+                </div>
+                <div class="image">
+                  <img src="/img/img_top_2.png" alt="">
+                  <p class="imageVerticalText">豊かな土をつくる<br />おいしいをえらぶ</p>
+                </div>
+              </div>
+              <a class="BlockLink" href="#">
+                <div class="BlockLink_text">
+                  <p>「農の匠の土づくり」活用事例</p>
+                  <span>Case Study</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="wrapper">
+                <div class="text">
+                  <h3 class="title">We love Farmer</h3>
+                  <p>
+                    素晴らしい土で育った植物は、土壌微生物や小動物が豊富です。生物多様性を支える原点となり、地球環境の保全につながります。また、微生物が多様な土壌はたくさんの炭素を貯留し、地球温暖化防止に貢献します。良い環境は良い植物を育て、さらにおいしい植物を育て、循環していきます。
+                  </p>
+                </div>
+                <div class="image">
+                  <img src="/img/img_top_3.png" alt="">
+                  <p class="imageVerticalText">「おいしい」の<br />笑顔のために</p>
+                </div>
+              </div>
+              <a class="BlockLink" href="#">
+                <div class="BlockLink_text">
+                  <p>初めての方向けサービス概要</p>
+                  <span>For the first time users</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <figure class="Top_imageSeparator">
+        <img src="/img/top_image_full_1.png" alt="">
+      </figure>
+
+      <section class="mb-56">
+        <div class="l_container">
+          <div class="SectionTitle">
+            <small>DGCテクノロジーについて</small>
+            <h2>私たちは、<br>
+              最新の研究成果を皆さんにお届けすることで、<br>
+              社会のお役に立ちたいと願う会社です。</h2>
+          </div>
+
+          <ul class="ImageList mt-16">
+            <li>
+              <div class="wrapper">
+                <div class="text">
+                  <p>
+                    弊サイトをご覧いただき、ありがとうございます。持続的な未来に向けて、様々な取り組みが行われる時代になりました。農業生産や廃棄物の堆肥化など、炭素循環を考慮した活動において、分解者であり生態系の底辺を担う微生物について考えることはとても重要です。生態系サービスを活用することで、効率的で合理的な生産活動を行うことができるからです。<br>
+                    土壌微生物多様性・活性値分析（BIOTREX）は、微生物群の働きを科学的に評価します。新しい時代を切り開くみなさまに、弊社の技術がお役に立てることを祈っております。</p>
+                </div>
+                <div class="image">
+                  <img src="/img/img_top_4.png" alt="">
+                  <p class="imageUnderText">代表取締役　櫻本 直美</p>
+                </div>
+              </div>
+              <a class="BlockLink" href="#">
+                <div class="BlockLink_text">
+                  <p>DGCテクノロジーについて</p>
+                  <span>About DGC Technology</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="mt-12">
+        {{> halfImageInternalLinks}}
+      </div>
+    </div>
+  </main>
+  {{> footer}}
+
+  <script type="module" src="/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>

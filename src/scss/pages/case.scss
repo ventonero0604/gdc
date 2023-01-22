@@ -1,0 +1,105 @@
+.Case {
+  &_list {
+    font-family: 'Yu Mincho', 'YuMincho', serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 150px 80px;
+    margin-bottom: 250px;
+    &_title {
+      margin: 230px 0;
+    }
+    &_item {
+      .title {
+        font-size: 2.2rem;
+        margin-top: 30px;
+      }
+      .name {
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        margin: 30px 0 40px;
+        span + span {
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+
+  &Detail {
+    &_main {
+      display: flex;
+      margin-top: 260px;
+      .image {
+        width: 290px;
+        margin-right: 70px;
+      }
+      .texts {
+        font-family: 'Yu Mincho', 'YuMincho', serif;
+      }
+      .title {
+        font-size: 3rem;
+      }
+      .detail {
+        font-size: 1.4rem;
+        display: flex;
+        align-items: baseline;
+        margin: 60px 0 20px;
+        span + span {
+          margin-left: 14px;
+        }
+      }
+      .pref {
+        font-size: 1.8rem;
+      }
+      .name {
+        font-size: 2rem;
+      }
+      small {
+        font-size: 1.6rem;
+      }
+    }
+
+    &_lead {
+      font-size: 1.4rem;
+      margin-top: 100px;
+      line-height: 2;
+    }
+  }
+
+  &_interview {
+    padding: 200px 0;
+
+    &-gray {
+      background-color: #eae9e8;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-family: 'Yu Mincho', 'YuMincho', serif;
+    }
+    .contents {
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-between;
+      gap: 0 20px;
+    }
+    .text {
+      width: 470px;
+      line-height: 2;
+    }
+    .image {
+      width: 450px;
+      p {
+        font-size: 1.4rem;
+        margin-top: 20px;
+        line-height: 2;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Case {
+  }
+}

@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 30px 0;
+  min-width: $min-width;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .Header {
+  }
+}

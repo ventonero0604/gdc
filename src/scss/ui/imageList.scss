@@ -1,0 +1,52 @@
+.ImageList {
+  margin-left: auto;
+  margin-right: auto;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  li + li {
+    margin-top: 150px;
+  }
+  .text {
+    .title {
+      font-size: 2.6rem;
+      font-family: 'Yu Mincho', 'YuMincho', serif;
+      margin-bottom: 30px;
+    }
+    p {
+      line-height: 2.2;
+      font-size: 1.4rem;
+    }
+  }
+  .image {
+    margin-left: 100px;
+    position: relative;
+    img {
+      min-width: 448px;
+      max-width: 448px;
+    }
+    .imageVerticalText {
+      position: absolute;
+      left: -60px;
+      top: -40px;
+      background-color: white;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      font-family: 'Yu Mincho', 'YuMincho', serif;
+      line-height: 2;
+      padding: 20px 5px;
+    }
+    .imageUnderText {
+      font-family: 'Yu Mincho', 'YuMincho', serif;
+      margin-top: 16px;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ImageList {
+  }
+}

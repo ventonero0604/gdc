@@ -1,0 +1,27 @@
+.Navi {
+  display: flex;
+  align-items: center;
+
+  li + li {
+    margin-left: 30px;
+  }
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_others {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    a + a {
+      margin-left: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Navi {
+  }
+}

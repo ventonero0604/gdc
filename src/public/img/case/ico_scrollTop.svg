@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="45.499" viewBox="0 0 36 45.499">
+  <g id="グループ_190" data-name="グループ 190" transform="translate(-1295 -683.501)">
+    <g id="グループ_189" data-name="グループ 189" transform="translate(-3418.004 1188.45) rotate(-90)">
+      <g id="グループ_29" data-name="グループ 29" transform="translate(482.45 4719.004)">
+        <path id="パス_22" data-name="パス 22" d="M417.239,4706h21" transform="translate(-417.239 -4695)" fill="none" stroke="#000" stroke-width="2"/>
+        <path id="パス_23" data-name="パス 23" d="M0,12.284,11,0,22,12.284" transform="translate(21 0) rotate(90)" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+    </g>
+    <text id="TOP" transform="translate(1295 725)" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700" letter-spacing="0.08em"><tspan x="0" y="0">TOP</tspan></text>
+  </g>
+</svg>

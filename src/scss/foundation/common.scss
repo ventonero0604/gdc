@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%; /* 1remを10pxにして計算しやすくする */
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -17,10 +18,6 @@ img {
 
 a {
   text-decoration: none;
-
-  &:hover img {
-    transition: 0.2s;
-  }
 }
 
 button {

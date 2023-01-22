@@ -1,0 +1,26 @@
+.SectionTitle {
+  small {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    display: block;
+  }
+  h2 {
+    font-size: 3rem;
+    line-height: 2;
+    display: block;
+  }
+  span {
+    margin-top: 8px;
+    font-size: 1.4rem;
+    display: block;
+  }
+  small,
+  h2 {
+    font-family: 'Yu Mincho', 'YuMincho', serif;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .SectionTitle {
+  }
+}

@@ -1,0 +1,116 @@
+.Footer {
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 220px 20px 110px;
+
+    span {
+      font-size: 1.3rem;
+      margin-top: 8px;
+    }
+  }
+
+  &_logo {
+    img {
+      width: 100%;
+    }
+  }
+
+  &_lead {
+    font-size: 1.3rem;
+    margin-top: 30px;
+    line-height: 2.2;
+  }
+
+  &_container {
+    &_left {
+      width: 350px;
+      margin-right: 150px;
+    }
+  }
+
+  &_copy {
+    display: block;
+    height: 142px;
+    background-color: $brown;
+    padding-left: 180px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  &_link {
+    margin-top: 50px;
+    display: block;
+    p {
+      display: flex;
+      align-items: center;
+      &:after {
+        display: block;
+        content: '';
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 10px;
+        background-image: url(/img/ico_arrow_large.svg);
+        margin-left: 20px;
+        transition: all 0.2s;
+      }
+    }
+
+    &_small {
+      display: flex;
+      align-items: center;
+      &:after {
+        display: block;
+        content: '';
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 10px;
+        background-image: url(/img/ico_arrow_small.svg);
+        margin-left: 10px;
+        transition: all 0.2s;
+      }
+    }
+
+    p:hover,
+    &_small:hover {
+      &:after {
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  &_list {
+    margin-top: 30px;
+    li + li {
+      margin-top: 20px;
+    }
+  }
+
+  &_link_title p,
+  &_link p,
+  &_link_small {
+    font-family: 'Yu Mincho', 'YuMincho', serif;
+  }
+
+  &_link + &_link_small {
+    margin-top: 30px;
+  }
+
+  &_others {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+    a + a {
+      margin-left: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Footer {
+  }
+}

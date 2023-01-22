@@ -1,0 +1,23 @@
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 600px;
+
+  &_contents {
+    margin: 0 auto;
+
+    &-case {
+      width: 718px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Main {
+  }
+}

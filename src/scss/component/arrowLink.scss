@@ -1,0 +1,50 @@
+.ArrowLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  font-family: 'Yu Mincho', 'YuMincho', serif;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-image: url(/img/ico_arrow_small.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin-left: 10px;
+    transition: all 0.2s;
+  }
+  &:hover {
+    &:after {
+      transform: translateX(5px);
+    }
+  }
+
+  &-white {
+    color: white;
+    &:after {
+      background-image: url(/img/ico_arrow_small_white.svg);
+    }
+  }
+
+  &-current {
+    &:before {
+      content: '';
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: white;
+      position: absolute;
+      left: 0;
+      bottom: -14px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ArrowLink {
+  }
+}

@@ -3,6 +3,6 @@
     @return calc($pixel / 375 * 100vw);
   }
   @if $device == 'pc' {
-    @return calc($pixel / 1600 * 100vw);
+    @return calc($pixel / 1366 * 100vw);
   }
 }

@@ -9,6 +9,10 @@ body {
   color: $black;
 }
 
+.yumincho {
+  font-family: 'Yu Mincho', 'YuMincho', serif;
+}
+
 a {
   color: $black;
 }
@@ -16,9 +20,6 @@ a {
 a,
 button {
   transition: all 0.2s;
-  &:hover {
-    opacity: 0.6;
-  }
 }
 
 .pc {

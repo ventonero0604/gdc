@@ -1,0 +1,13 @@
+.l {
+  &_container {
+    max-width: $content_width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .l {
+  }
+}

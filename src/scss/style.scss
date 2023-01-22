@@ -12,6 +12,23 @@
 
 /* component */
 @import './component/annotation.scss';
+@import './component/layout.scss';
+@import './component/main.scss';
+@import './component/arrowLink.scss';
+@import './component/scrollDown.scss';
+@import './component/sectionTitle.scss';
+@import './component/blockLink.scss';
+@import './component/scrollTop.scss';
 
 /* ui */
 @import './ui/header.scss';
+@import './ui/navi.scss';
+@import './ui/localMenu.scss';
+@import './ui/halfImageInternalLinks.scss';
+@import './ui/imageList.scss';
+@import './ui/slider.scss';
+@import './ui/footer.scss';
+
+/* pages */
+@import './pages/top.scss';
+@import './pages/case.scss';

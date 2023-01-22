@@ -1,0 +1,14 @@
+.ScrollTop {
+  position: fixed;
+  right: 2%;
+  bottom: 10%;
+  transition: all 0.2s;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ScrollTop {
+  }
+}

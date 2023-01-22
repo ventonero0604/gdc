@@ -1,0 +1,102 @@
+.Top {
+  position: relative;
+  &_main {
+    width: 1000px;
+    margin: 0 auto;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: sticky;
+    &_container {
+      position: relative;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      height: 100vh;
+      scrollbar-width: none;
+      padding-bottom: 200px;
+      &_top {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+      }
+    }
+    &_container::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &_title {
+    position: relative;
+    width: 488px;
+    h2 {
+      margin-bottom: 68px;
+    }
+    p {
+      line-height: 2;
+      margin-left: 30px;
+      font-size: 1.5rem;
+    }
+  }
+  &_lead {
+    margin-top: 430px;
+    img {
+      margin-bottom: 110px;
+    }
+  }
+  &_movie {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 532px;
+    height: 602px;
+    video {
+    }
+  }
+  &_contents {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+  }
+  &_soilPJ {
+    background-image: url(/img/bg_top_soil_project.png);
+    width: 100%;
+    padding: 150px 0;
+    background-size: cover;
+    color: white;
+    margin-bottom: 250px;
+
+    &_header {
+      display: flex;
+      margin-bottom: 70px;
+    }
+    &_texts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 60px;
+    }
+    &_lead {
+      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-size: 2.6rem;
+    }
+    &_text {
+      font-size: 1.4rem;
+      margin-top: 30px;
+      line-height: 2;
+    }
+    &_footer {
+      font-size: 1.3rem;
+      line-height: 2;
+      margin-top: 40px;
+    }
+  }
+
+  &_imageSeparator {
+    margin: 250px 0 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Top {
+  }
+}
