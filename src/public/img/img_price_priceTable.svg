@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <g id="グループ_10047" data-name="グループ 10047" transform="translate(-183 -11407)">
+    <rect id="長方形_13744" data-name="長方形 13744" width="392" height="80" transform="translate(183 11407)" fill="#2f2013"/>
+    <rect id="長方形_13748" data-name="長方形 13748" width="392" height="206" transform="translate(183 11489)" fill="#2f2013"/>
+    <rect id="長方形_13766" data-name="長方形 13766" width="392" height="154" transform="translate(183 11697)" fill="#2f2013"/>
+    <rect id="長方形_13773" data-name="長方形 13773" width="392" height="154" transform="translate(183 11853)" fill="#2f2013"/>
+    <text id="項目" transform="translate(358 11457)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.17em"><tspan x="0" y="0">項目</tspan></text>
+    <text id="土壌微生物多様性_活性値_通常分析_サンプルあたり_" data-name="土壌微生物多様性・活性値
+通常分析（１サンプルあたり）" transform="translate(379 11581)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="-119.88" y="0">土壌微生物多様性・活性値</tspan><tspan x="-117.46" y="34">通常分析</tspan><tspan y="34" font-size="14">（１サンプルあたり）</tspan></text>
+    <text id="土壌微生物多様性_活性値_簡易分析_サンプルあたり_" data-name="土壌微生物多様性・活性値
+簡易分析（１サンプルあたり）" transform="translate(379 11764)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="-119.88" y="0">土壌微生物多様性・活性値</tspan><tspan x="-117.46" y="34">簡易分析</tspan><tspan y="34" font-size="14">（１サンプルあたり）</tspan></text>
+    <text id="化学性分析_サンプルあたり_" data-name="化学性分析（１サンプルあたり）" transform="translate(379 11937)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="-127.54" y="0">化学性分析</tspan><tspan y="0" font-size="14">（１サンプルあたり）</tspan></text>
+    <rect id="長方形_13750" data-name="長方形 13750" width="302" height="50" transform="translate(577 11489)" fill="#fff"/>
+    <rect id="長方形_13767" data-name="長方形 13767" width="302" height="50" transform="translate(577 11697)" fill="#fff"/>
+    <rect id="長方形_13774" data-name="長方形 13774" width="302" height="50" transform="translate(577 11853)" fill="#f5f5f5"/>
+    <rect id="長方形_13758" data-name="長方形 13758" width="302" height="50" transform="translate(881 11489)" fill="#fff"/>
+    <rect id="長方形_13768" data-name="長方形 13768" width="302" height="50" transform="translate(881 11697)" fill="#fff"/>
+    <rect id="長方形_13775" data-name="長方形 13775" width="302" height="50" transform="translate(881 11853)" fill="#f5f5f5"/>
+    <rect id="長方形_13751" data-name="長方形 13751" width="302" height="50" transform="translate(577 11541)" fill="#f5f5f5"/>
+    <rect id="長方形_13764" data-name="長方形 13764" width="302" height="50" transform="translate(577 11749)" fill="#f5f5f5"/>
+    <rect id="長方形_13771" data-name="長方形 13771" width="302" height="50" transform="translate(577 11905)" fill="#fff"/>
+    <rect id="長方形_13757" data-name="長方形 13757" width="302" height="50" transform="translate(881 11541)" fill="#f5f5f5"/>
+    <rect id="長方形_13765" data-name="長方形 13765" width="302" height="50" transform="translate(881 11749)" fill="#f5f5f5"/>
+    <rect id="長方形_13772" data-name="長方形 13772" width="302" height="50" transform="translate(881 11905)" fill="#fff"/>
+    <rect id="長方形_13752" data-name="長方形 13752" width="302" height="50" transform="translate(577 11593)" fill="#fff"/>
+    <rect id="長方形_13762" data-name="長方形 13762" width="302" height="50" transform="translate(577 11801)" fill="#fff"/>
+    <rect id="長方形_13770" data-name="長方形 13770" width="302" height="50" transform="translate(577 11957)" fill="#f5f5f5"/>
+    <rect id="長方形_13756" data-name="長方形 13756" width="302" height="50" transform="translate(881 11593)" fill="#fff"/>
+    <rect id="長方形_13761" data-name="長方形 13761" width="302" height="50" transform="translate(881 11801)" fill="#fff"/>
+    <rect id="長方形_13769" data-name="長方形 13769" width="302" height="50" transform="translate(881 11957)" fill="#f5f5f5"/>
+    <rect id="長方形_13753" data-name="長方形 13753" width="302" height="50" transform="translate(577 11645)" fill="#f5f5f5"/>
+    <rect id="長方形_13755" data-name="長方形 13755" width="302" height="50" transform="translate(881 11645)" fill="#f5f5f5"/>
+    <text id="基本分析" transform="translate(699 11520)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">基本分析</tspan></text>
+    <text id="基本分析-2" data-name="基本分析" transform="translate(699 11728)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">基本分析</tspan></text>
+    <text id="基本分析-3" data-name="基本分析" transform="translate(699 11884)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">基本分析</tspan></text>
+    <text id="詳細データを用いたグラフ" transform="translate(728 11572)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-90.16" y="0">詳細</tspan><tspan y="0">データを</tspan><tspan y="0">用</tspan><tspan y="0">いたグラフ</tspan></text>
+    <text id="分析結果の再送付_手数料_" data-name="分析結果の再送付 手数料 " transform="translate(728 11780)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-86.856" y="0">分析結果</tspan><tspan y="0">の</tspan><tspan y="0">再送付 手数料 </tspan></text>
+    <text id="水田オプション" transform="translate(728 11936)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-52.36" y="0">水田</tspan><tspan y="0">オプション</tspan></text>
+    <text id="MDS解析_" data-name="MDS解析 " transform="translate(728 11624)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-33.04" y="0">MDS</tspan><tspan y="0">解析 </tspan></text>
+    <text id="分析結果のメール送信_手数料_" data-name="分析結果のメール送信 手数料 " transform="translate(728 11832)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-101.976" y="0">分析結果</tspan><tspan y="0">のメール</tspan><tspan y="0">送信 手数料 </tspan></text>
+    <text id="リン酸吸収係数_オプション" data-name="リン酸吸収係数　オプション" transform="translate(728 11988)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-97.72" y="0">リン</tspan><tspan y="0">酸吸収係数　</tspan><tspan y="0">オプション</tspan></text>
+    <text id="詳細データを用いたグラフ_MDS解析_" data-name="詳細データを用いたグラフ、MDS解析 " transform="translate(728 11676)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-131.04" y="0">詳細</tspan><tspan y="0">データを</tspan><tspan y="0">用</tspan><tspan y="0">いたグラフ、</tspan><tspan y="0">MDS</tspan><tspan y="0">解析 </tspan></text>
+    <g id="グループ_1015" data-name="グループ 1015" transform="translate(0 413)">
+      <text id="_30_000円" data-name="30,000円" transform="translate(1004 11107)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">30,000円</tspan></text>
+      <text id="_12_800円" data-name="12,800円" transform="translate(1004 11315)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">12,800円</tspan></text>
+      <text id="_5_000円" data-name="5,000円" transform="translate(1012 11471)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">5,000円</tspan></text>
+      <text id="_3_000円" data-name="＋3,000円" transform="translate(1032 11159)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-34.846" y="0">＋3,000円</tspan></text>
+      <text id="_500円" data-name="＋500円" transform="translate(1039 11367)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-27.895" y="0">＋500円</tspan></text>
+      <text id="_1_500円" data-name="＋1,500円" transform="translate(1032 11523)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-34.846" y="0">＋1,500円</tspan></text>
+      <text id="_5_000円-2" data-name="＋5,000円" transform="translate(1032 11211)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-34.846" y="0">＋5,000円</tspan></text>
+      <text id="_500円-2" data-name="＋500円" transform="translate(1039 11419)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-27.895" y="0">＋500円</tspan></text>
+      <text id="_1_000円" data-name="＋1,000円" transform="translate(1032 11575)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-34.846" y="0">＋1,000円</tspan></text>
+      <text id="_6_000円" data-name="＋6,000円" transform="translate(1032 11263)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-34.846" y="0">＋6,000円</tspan></text>
+    </g>
+    <rect id="長方形_13754" data-name="長方形 13754" width="302" height="80" transform="translate(577 11407)" fill="#4b4239"/>
+    <rect id="長方形_13759" data-name="長方形 13759" width="302" height="80" transform="translate(881 11407)" fill="#4b4239"/>
+    <text id="オプション等" transform="translate(669 11457)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">オプション等</tspan></text>
+    <text id="価格_税抜_" data-name="価格（税抜）" transform="translate(982 11457)" fill="#fff" font-size="18" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">価格</tspan><tspan y="0" font-size="14">（税抜）</tspan></text>
+  </g>
+</svg>

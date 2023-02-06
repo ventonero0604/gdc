@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="254" viewBox="0 0 275 254">
+  <g id="グループ_10052" data-name="グループ 10052" transform="translate(-40 -1362)">
+    <g id="グループ_1794" data-name="グループ 1794" transform="translate(-187 114)">
+      <rect id="長方形_13396" data-name="長方形 13396" width="275" height="78" transform="translate(227 1248)" fill="#eae8e4"/>
+      <g id="グループ_1190" data-name="グループ 1190" transform="translate(22 10)">
+        <text id="微生物通常分析" transform="translate(248 1283)" font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">微生物通常分析</tspan></text>
+        <text id="_オプション有無_" data-name="（オプション有無）" transform="translate(356 1283)" font-size="12" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">（オプション</tspan><tspan y="0">有無）</tspan></text>
+        <text id="A." transform="translate(218 1283)" font-size="20" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">A.</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_1795" data-name="グループ 1795" transform="translate(-187 202)">
+      <rect id="長方形_13396-2" data-name="長方形 13396" width="275" height="78" transform="translate(227 1248)" fill="#eae8e4"/>
+      <g id="グループ_1189" data-name="グループ 1189" transform="translate(4)">
+        <text id="微生物簡易分析" transform="translate(369 1293)" font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-56.1" y="0">微生物簡易分析</tspan></text>
+        <text id="B." transform="translate(286 1293)" font-size="20" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">B.</tspan></text>
+      </g>
+    </g>
+    <g id="グループ_1796" data-name="グループ 1796" transform="translate(-187 290)">
+      <rect id="長方形_13396-3" data-name="長方形 13396" width="275" height="78" transform="translate(227 1248)" fill="#eae8e4"/>
+      <g id="グループ_1188" data-name="グループ 1188" transform="translate(4)">
+        <text id="化学性分析" transform="translate(373 1293)" font-size="15" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="-39.9" y="0">化学性分析</tspan></text>
+        <text id="C." transform="translate(304 1293)" font-size="20" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">C.</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

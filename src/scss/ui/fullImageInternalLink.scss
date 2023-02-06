@@ -1,0 +1,99 @@
+.FullImageInternalLink {
+  margin-bottom: 7px;
+  padding: 0 5px;
+  .wrapper {
+    display: flex;
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(/img/img_footer_contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .imageLink {
+    position: relative;
+    height: 450px;
+    width: 100%;
+
+    .text {
+      color: white;
+      position: absolute;
+      left: pxvw(230, 'pc');
+      top: 50%;
+      transform: translateY(-50%);
+
+      p {
+        font-size: pxvw(26, 'pc');
+        margin-bottom: pxvw(8, 'pc');
+        display: flex;
+        align-items: center;
+        &:after {
+          content: '';
+          display: block;
+          width: pxvw(100, 'pc');
+          height: pxvw(10, 'pc');
+          margin-left: pxvw(20, 'pc');
+          background-image: url(/img/ico_arrow_large_white.svg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          transition: all 0.2s;
+        }
+      }
+      span {
+        font-size: pxvw(16, 'pc');
+      }
+    }
+
+    &:hover {
+      .text {
+        p:after {
+          transform: translateX(5px);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .FullImageInternalLink {
+    margin-bottom: 5px;
+    padding: 0 5px;
+    .wrapper {
+      display: flex;
+      background-image: url(/img/img_footer_contact.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      align-items: center;
+    }
+
+    .imageLink {
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .text {
+        left: unset;
+        top: unset;
+        transform: unset;
+        position: relative;
+
+        p {
+          font-size: 2rem;
+          margin-bottom: 8px;
+          &:after {
+            width: 10px;
+            height: 10px;
+            margin-left: 20px;
+            background-image: url(/img/ico_arrow_small_white.svg);
+          }
+        }
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

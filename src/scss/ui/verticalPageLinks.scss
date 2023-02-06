@@ -1,0 +1,215 @@
+.VerticalPageLinks {
+  display: block;
+
+  &_small {
+    font-size: 1.3rem;
+    margin-top: 8px;
+  }
+
+  li + li {
+    margin-top: 20px;
+  }
+
+  &_title {
+    margin-bottom: 30px;
+    color: white;
+  }
+  &_link {
+    margin-top: 50px;
+    display: block;
+    p {
+      display: flex;
+      align-items: center;
+      &:after {
+        display: block;
+        content: '';
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 10px;
+        background-image: url(/img/ico_arrow_large.svg);
+        margin-left: 20px;
+        transition: all 0.2s;
+      }
+    }
+
+    &_small {
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      &:after {
+        display: block;
+        content: '';
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 10px;
+        background-image: url(/img/ico_arrow_small.svg);
+        margin-left: 10px;
+        transition: all 0.2s;
+      }
+      & + & {
+        margin-top: 20px;
+      }
+    }
+
+    p:hover,
+    &_small:hover {
+      &:after {
+        transform: translateX(5px);
+      }
+    }
+  }
+
+  &_title p,
+  &_link p,
+  &_link_small {
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  &_link + &_link_small {
+    margin-top: 30px;
+  }
+
+  &_others {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+
+    a + a {
+      margin-left: 24px;
+    }
+    .fb_white {
+      display: none;
+    }
+  }
+
+  .FullMenu & {
+    &_link,
+    &_link_small {
+      color: white;
+    }
+    &_link {
+      p {
+        &:after {
+          background-image: url(/img/ico_arrow_large_white.svg);
+        }
+      }
+    }
+    &_link_small {
+      &:after {
+        background-image: url(/img/ico_arrow_small_white.svg);
+      }
+    }
+    &_others {
+      a {
+        color: white;
+      }
+      .fb_white {
+        display: block;
+      }
+      .fb_black {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .VerticalPageLinks {
+    &_link {
+      p {
+        display: flex;
+        align-items: center;
+        &:after {
+          display: block;
+          content: '';
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 100px;
+          height: 10px;
+          background-image: url(/img/ico_arrow_large.svg);
+          margin-left: 20px;
+          transition: all 0.2s;
+        }
+      }
+
+      span {
+        font-size: 1.3rem;
+        margin-top: 8px;
+      }
+
+      &_small {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        &:after {
+          display: block;
+          content: '';
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 10px;
+          height: 10px;
+          background-image: url(/img/ico_arrow_small.svg);
+          margin-left: 10px;
+          transition: all 0.2s;
+        }
+        & + & {
+          margin-top: 20px;
+        }
+      }
+
+      p:hover,
+      &_small:hover {
+        &:after {
+          transform: translateX(5px);
+        }
+      }
+    }
+
+    .FullMenu & {
+      &_link,
+      &_link_small {
+        color: white;
+      }
+      &_link {
+        p {
+          &:after {
+            background-image: url(/img/ico_arrow_large_white.svg);
+          }
+        }
+      }
+      &_link_small {
+        &:after {
+          background-image: url(/img/ico_arrow_small_white.svg);
+        }
+      }
+    }
+
+    &_link_title p,
+    &_link p,
+    &_link_small {
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    &_link + &_link_small {
+      margin-top: 30px;
+    }
+
+    &_others {
+      display: flex;
+      align-items: center;
+      margin-top: 60px;
+
+      a + a {
+        margin-left: 24px;
+      }
+    }
+  }
+}

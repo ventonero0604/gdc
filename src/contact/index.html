@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  {{> meta}}
+  {{> webFont}}
+</head>
+
+<body>
+  {{> googleTag}}
+  <main class="Contact">
+    {{> header}}
+
+    <section class="Main">
+      <h1 class="Main_contents">
+        <img class="pc" src="/img/ttl_main_contact.svg" alt="お申込み・お問い合わせ">
+        <img class="sp" src="/img/ttl_main_contact_sp.svg" alt="お申込み・お問い合わせ">
+      </h1>
+    </section>
+
+    <nav class="LocalMenu">
+      <div class="LocalMenu_content">
+        <ul class="LocalMenu_list LocalMenu_list-center">
+          <li>
+            <a class="ArrowLink ArrowLink-white ArrowLink-current" href="/contact/index.html">お申込み・お問い合わせ</a>
+          </li>
+          <li>
+            <a class="ArrowLink ArrowLink-white" href="/qa/index.html">よくあるご質問</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="l_contents">
+      <div class="l_container">
+        <p class="text-sm mb-10 text-center sp:text-left leading-loose">分析の申し込みやお客様のご意見、疑問・ご不明点は下記フォームからお願いいたします。</p>
+        <a class="BlockLink" href="/qa/index.html">
+          <div class="BlockLink_text">
+            <p>よくある質問</p>
+            <span>FAQ</span>
+          </div>
+        </a>
+        <form action="" method="get">
+          <div class="Contact_contents">
+            <h2 class="yumincho mb-6 text-[2.6rem]">お問合せ項目</h2>
+            <div class="Contact_contents_gray">
+              <fieldset class="checkBox">
+                <div>
+                  <input type="checkbox" id="1" name="1" value="1" />
+                  <label for="1">お申込みに関するお問い合わせ</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="2" name="2" value="2" />
+                  <label for="2">分析内容に関するお問い合わせ</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="3" name="3" value="3" />
+                  <label for="3">分析のお申込</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="4" name="4" value="4" />
+                  <label for="4">その他お問い合わせ</label>
+                </div>
+              </fieldset>
+            </div>
+
+            <fieldset class="Contact_container">
+              <div class="input">
+                <label for="11">会社名</label>
+                <input type="text" id="11" name="11" placeholder="株式会社DGCテクノロジー" />
+              </div>
+              <div class="input">
+                <label for="12">お名前<span class="label">必須</span></label>
+                <input type="text" id="12" name="12" placeholder="土壌　太郎" />
+              </div>
+              <div class="input">
+                <label>ご住所</label>
+                <div class="input_column">
+                  <span>〒</span>
+                  <input class="zip" type="text" id="13" name="13" placeholder="300-2667" />
+                  <input class="address" type="text" id="13" name="13" placeholder="茨城県つくば市中別府591-163" />
+                </div>
+              </div>
+              <div class="input">
+                <label for="14">お電話番号</label>
+                <input type="text" id="14" name="14" />
+              </div>
+              <div class="input">
+                <label for="15">FAX番号</label>
+                <input type="text" id="15" name="15" />
+              </div>
+              <div class="input">
+                <label for="16">メールアドレス<span class="label">必須</span></label>
+                <input type="text" id="16" name="16" placeholder="contact@dgctechnology.co.jp" />
+              </div>
+              <div class="input">
+                <label for="17">添付資料<br class="pc">（お申込み用紙等）</label>
+                <input type="file" name="example" id="17" accept="image/jpeg, image/png">
+              </div>
+              <div class="input">
+                <label for="18">お問合せ内容</label>
+                <textarea class="textarea" id="18" name="18"></textarea>
+              </div>
+            </fieldset>
+
+            <a class="BlockLink mt-20 js-submit" href="#">
+              <div class="BlockLink_text">
+                <p>送信する</p>
+                <span>Contact</span>
+              </div>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- フォーム送信後に表示 -->
+    <div class="Contact_modal" style="display: none;">
+      <p class="yumincho text-[2.6rem] mb-10 sp:text-[2.4rem]">お問い合わせいただき<br class="sp">ありがとうございました。</p>
+      <p class="mb-10">内容を確認後、担当よりご連絡させていた<br class="sp">だきますので、今しばらくお待ちください。</p>
+      <button type="button">閉じる<img src="/img/ico_close.svg" alt="close"></button>
+    </div>
+
+    {{> halfImageInternalLinks}}
+  </main>
+  {{> footer}}
+
+  {{> fullMenu}}
+  <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>

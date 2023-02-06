@@ -1,0 +1,144 @@
+.Price {
+  &_contents {
+    padding: 80px 80px 100px;
+    background-color: #eae9e8;
+    font-size: 1.5rem;
+    line-height: 2;
+    &_title {
+      background-color: #2f2013;
+      color: white;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      font-size: 2.6rem;
+    }
+    li {
+      padding-left: 20px;
+      position: relative;
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '■';
+      }
+    }
+    li + li {
+      margin-top: 30px;
+    }
+    &_attention {
+      background-color: white;
+      margin-top: 40px;
+      padding: 40px 40px 50px;
+      &-gray {
+        background-color: #eae9e8;
+      }
+      .title {
+        font-style: normal;
+        font-family: yu-mincho-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+      }
+      .text {
+        padding-left: 12px;
+      }
+      &-detail {
+        padding: 30px;
+        .title {
+          font-size: 1.5rem;
+          margin-bottom: 30px;
+          font-family: -apple-system-subset, Helvetica, Hiragino Kaku Gothic ProN, sans-serif;
+        }
+      }
+    }
+  }
+  &_flowText {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 60px;
+    .title {
+      font-size: 2.6rem;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin-bottom: 40px;
+    }
+    .text {
+      font-size: 1.5rem;
+      line-height: 2;
+    }
+    .text + .text {
+      margin-top: 20px;
+    }
+  }
+  .dotText,
+  .asterText {
+    font-size: 1.5rem;
+    padding-left: 12px;
+    position: relative;
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '・';
+    }
+  }
+  .asterText {
+    &:before {
+      content: '※';
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Price {
+    &_contents {
+      padding: 40px 24px 60px;
+      font-size: 1.5rem;
+      line-height: 2;
+      &_title {
+        height: auto;
+        font-size: 2rem;
+        padding: 20px;
+        text-align: center;
+      }
+      &_attention {
+        margin-top: 40px;
+        padding: 30px 24px;
+      }
+    }
+    &_flowText {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      gap: 60px 0;
+    }
+    .dotText,
+    .asterText {
+      font-size: 1.5rem;
+      padding-left: 12px;
+      position: relative;
+      &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '・';
+      }
+    }
+    .asterText {
+      &:before {
+        content: '※';
+      }
+    }
+  }
+}

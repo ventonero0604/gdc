@@ -1,0 +1,57 @@
+.FullMenu {
+  display: none;
+}
+
+@media screen and (max-width: 1320px) {
+  .FullMenu {
+    display: block;
+    position: fixed;
+    justify-content: center;
+    background-color: #21160c;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding: 100px 30px;
+    transform: translateX(100vw);
+    opacity: 0;
+    transition: all 0.4s;
+    &_wrapper {
+      overflow-y: scroll;
+      height: 100%;
+      width: 100%;
+    }
+    &_logo {
+      min-width: 314px;
+      max-width: 400px;
+      display: block;
+      img {
+        width: 100%;
+        margin-bottom: 60px;
+      }
+    }
+    &_close {
+      width: 18px;
+      height: 18px;
+      background-image: url(/img/ico_close_w.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      &-top {
+        top: 34px;
+        right: 26px;
+      }
+      &-bottom {
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    &.is-show {
+      display: flex;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

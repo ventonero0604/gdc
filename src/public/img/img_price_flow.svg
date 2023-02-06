@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1324" viewBox="0 0 1000 1324">
+  <g id="グループ_10046" data-name="グループ 10046" transform="translate(-183 -4344)">
+    <g id="長方形_13694" data-name="長方形 13694" transform="translate(203 4420)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="グループ_981" data-name="グループ 981" transform="translate(-295 -703)">
+      <g id="長方形_13696" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <text id="申込用紙の発送" transform="translate(324 4481)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">申込用紙の発送</tspan></text>
+    <text id="Step_01" data-name="Step 01" transform="translate(324 4453.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 01</tspan></text>
+    <text id="分析フロー" transform="translate(183 4367)" font-size="26" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.17em"><tspan x="0" y="0">分析フロー</tspan></text>
+    <path id="パス_538" data-name="パス 538" d="M0,0H900l80,20H80Z" transform="translate(203 4508)" fill="#fff"/>
+    <path id="パス_543" data-name="パス 543" d="M0,0H900l80,40H80Z" transform="translate(203 5088)" fill="#fff"/>
+    <path id="パス_542" data-name="パス 542" d="M980,0H80L0,40H900Z" transform="translate(203 4744)" fill="#fff"/>
+    <path id="パス_544" data-name="パス 544" d="M980,0H80L0,40H900Z" transform="translate(203 5432)" fill="#fff"/>
+    <g id="長方形_13716" data-name="長方形 13716" transform="translate(283 4528)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13723" data-name="長方形 13723" transform="translate(283 5128)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="グループ_993" data-name="グループ 993" transform="translate(-215 -595)">
+      <g id="長方形_13696-2" data-name="長方形 13696" transform="translate(478 5143)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="DGC" transform="translate(503 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">DGC</tspan></text>
+    </g>
+    <g id="グループ_998" data-name="グループ 998" transform="translate(-215 5)">
+      <g id="長方形_13696-3" data-name="長方形 13696" transform="translate(478 5143)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="DGC-2" data-name="DGC" transform="translate(503 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">DGC</tspan></text>
+    </g>
+    <text id="申込用紙の受領" transform="translate(404 4589)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">申込用紙の受領</tspan></text>
+    <text id="サンプルの受領" transform="translate(404 5189)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">サンプルの受領</tspan></text>
+    <text id="Step_02" data-name="Step 02" transform="translate(404 4561.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 02</tspan></text>
+    <text id="Step_07" data-name="Step 07" transform="translate(404 5161.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 07</tspan></text>
+    <rect id="長方形_13707" data-name="長方形 13707" width="900" height="40" transform="translate(283 4616)" fill="#fff"/>
+    <rect id="長方形_13724" data-name="長方形 13724" width="900" height="20" transform="translate(283 5216)" fill="#fff"/>
+    <rect id="長方形_13727" data-name="長方形 13727" width="900" height="20" transform="translate(283 5324)" fill="#fff"/>
+    <rect id="長方形_13720" data-name="長方形 13720" width="900" height="20" transform="translate(203 4872)" fill="#fff"/>
+    <rect id="長方形_13729" data-name="長方形 13729" width="900" height="20" transform="translate(203 5560)" fill="#fff"/>
+    <rect id="長方形_13722" data-name="長方形 13722" width="900" height="20" transform="translate(203 4980)" fill="#fff"/>
+    <g id="長方形_13717" data-name="長方形 13717" transform="translate(283 4656)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13725" data-name="長方形 13725" transform="translate(283 5236)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13726" data-name="長方形 13726" transform="translate(283 5344)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="グループ_994" data-name="グループ 994" transform="translate(-215 -467)">
+      <g id="長方形_13696-4" data-name="長方形 13696" transform="translate(478 5143)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="DGC-3" data-name="DGC" transform="translate(503 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">DGC</tspan></text>
+    </g>
+    <g id="グループ_999" data-name="グループ 999" transform="translate(-215 113)">
+      <g id="長方形_13696-5" data-name="長方形 13696" transform="translate(478 5143)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="DGC-4" data-name="DGC" transform="translate(503 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">DGC</tspan></text>
+    </g>
+    <g id="グループ_1000" data-name="グループ 1000" transform="translate(-215 221)">
+      <g id="長方形_13696-6" data-name="長方形 13696" transform="translate(478 5143)" fill="#e0e0e0" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="DGC-5" data-name="DGC" transform="translate(503 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">DGC</tspan></text>
+    </g>
+    <text id="サンプリング用バッグ_説明用紙の送付" data-name="サンプリング用バッグ・説明用紙の送付" transform="translate(404 4717)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">サンプリング用バッグ・説明用紙の送付</tspan></text>
+    <text id="分析開始" transform="translate(404 5297)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">分析開始</tspan></text>
+    <text id="分析結果_請求書の発送" data-name="分析結果・請求書の発送" transform="translate(404 5405)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">分析結果・請求書の発送</tspan></text>
+    <text id="Step_03" data-name="Step 03" transform="translate(404 4689.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 03</tspan></text>
+    <text id="Step_08" data-name="Step 08" transform="translate(404 5269.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 08</tspan></text>
+    <text id="Step_09" data-name="Step 09" transform="translate(404 5377.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 09</tspan></text>
+    <g id="長方形_13718" data-name="長方形 13718" transform="translate(203 4784)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13728" data-name="長方形 13728" transform="translate(203 5472)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13719" data-name="長方形 13719" transform="translate(203 4892)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13730" data-name="長方形 13730" transform="translate(203 5580)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="長方形_13721" data-name="長方形 13721" transform="translate(203 5000)" fill="none" stroke="#000" stroke-width="1">
+      <rect width="900" height="88" stroke="none"/>
+      <rect x="0.5" y="0.5" width="899" height="87" fill="none"/>
+    </g>
+    <g id="グループ_995" data-name="グループ 995" transform="translate(-295 -339)">
+      <g id="長方形_13696-7" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様-2" data-name="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <g id="グループ_1001" data-name="グループ 1001" transform="translate(-295 349)">
+      <g id="長方形_13696-8" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様-3" data-name="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <g id="グループ_996" data-name="グループ 996" transform="translate(-295 -231)">
+      <g id="長方形_13696-9" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様-4" data-name="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <g id="グループ_1002" data-name="グループ 1002" transform="translate(-295 457)">
+      <g id="長方形_13696-10" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様-5" data-name="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <g id="グループ_997" data-name="グループ 997" transform="translate(-295 -123)">
+      <g id="長方形_13696-11" data-name="長方形 13696" transform="translate(478 5143)" fill="#eae9e8" stroke="#000" stroke-width="1">
+        <rect width="91" height="46" stroke="none"/>
+        <rect x="0.5" y="0.5" width="90" height="45" fill="none"/>
+      </g>
+      <text id="お客様-6" data-name="お客様" transform="translate(498 5172)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">お客様</tspan></text>
+    </g>
+    <text id="サンプリング用バッグ_説明用紙の受領" data-name="サンプリング用バッグ・説明用紙の受領" transform="translate(324 4845)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">サンプリング用バッグ・説明用紙の受領</tspan></text>
+    <text id="分析結果_請求書の到着" data-name="分析結果・請求書の到着" transform="translate(324 5533)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">分析結果・請求書の到着</tspan></text>
+    <text id="サンプリングの開始" transform="translate(324 4953)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">サンプリングの開始</tspan></text>
+    <text id="分析代金のお支払い" transform="translate(324 5641)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">分析代金のお支払い</tspan></text>
+    <text id="サンプルの発送" transform="translate(324 5061)" font-size="16" font-family="YuMin-Medium, YuMincho" font-weight="500" letter-spacing="0.12em"><tspan x="0" y="0">サンプルの発送</tspan></text>
+    <text id="Step_04" data-name="Step 04" transform="translate(324 4817.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 04</tspan></text>
+    <text id="Step_10" data-name="Step 10" transform="translate(324 5505.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 10</tspan></text>
+    <text id="Step_05" data-name="Step 05" transform="translate(324 4925.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 05</tspan></text>
+    <text id="Step_11" data-name="Step 11" transform="translate(324 5613.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 11</tspan></text>
+    <text id="Step_06" data-name="Step 06" transform="translate(324 5033.999)" font-size="18" font-family="Helvetica" letter-spacing="0.08em"><tspan x="0" y="0">Step 06</tspan></text>
+    <g id="グループ_1003" data-name="グループ 1003" transform="translate(117 -769)">
+      <text id="約1日_2日" data-name="約1日〜2日" transform="translate(708 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">約1日〜2日</tspan></text>
+      <text id="サンプリングバッグ作成までの日数" transform="translate(448 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">サンプリングバッグ</tspan><tspan y="0">作成</tspan><tspan y="0">までの</tspan><tspan y="0">日数</tspan></text>
+    </g>
+    <g id="グループ_1004" data-name="グループ 1004" transform="translate(-20 -641)">
+      <text id="普通郵便の配達期間" transform="translate(708 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">普通郵便</tspan><tspan y="0">の</tspan><tspan y="0">配達期間</tspan></text>
+      <text id="到着までの日数" transform="translate(583 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">到着</tspan><tspan y="0">までの</tspan><tspan y="0">日数</tspan></text>
+    </g>
+    <g id="グループ_1005" data-name="グループ 1005" transform="translate(-20 47)">
+      <text id="普通郵便の配達期間-2" data-name="普通郵便の配達期間" transform="translate(708 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">普通郵便</tspan><tspan y="0">の</tspan><tspan y="0">配達期間</tspan></text>
+      <text id="到着までの日数-2" data-name="到着までの日数" transform="translate(583 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">到着</tspan><tspan y="0">までの</tspan><tspan y="0">日数</tspan></text>
+    </g>
+    <g id="グループ_1006" data-name="グループ 1006" transform="translate(-51 -222)">
+      <text id="_月曜日まで保管_" data-name="（月曜日まで保管）" transform="translate(583 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">（月曜日</tspan><tspan y="0">まで</tspan><tspan y="0">保管）</tspan></text>
+    </g>
+    <g id="グループ_1007" data-name="グループ 1007" transform="translate(-104 -114)">
+      <text id="_分析期間1週間_" data-name="（分析期間1週間）" transform="translate(583 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">（分析期間1週間）</tspan></text>
+    </g>
+    <g id="グループ_1008" data-name="グループ 1008" transform="translate(22 -7)">
+      <text id="_翌週_月曜日発送_" data-name="（翌週 月曜日発送）" transform="translate(583 5411)" font-size="14" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.08em"><tspan x="0" y="0">（翌週 月曜日発送）</tspan></text>
+    </g>
+  </g>
+</svg>

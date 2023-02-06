@@ -1,0 +1,131 @@
+.Biodiversity {
+  position: relative;
+  &_lead {
+    padding: 250px 0;
+    h2 {
+      font-size: 3.4rem;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 2.4;
+    }
+    &_contents {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 70px;
+    }
+    &_text {
+      width: 482px;
+      margin-left: 20px;
+      p {
+        line-height: 2;
+        font-size: 1.5rem;
+      }
+      p + p {
+        margin-top: 30px;
+      }
+    }
+    &_image {
+      margin-left: -152px;
+    }
+  }
+
+  &_voice {
+    &_contents {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .text {
+        line-height: 2;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+      }
+      .image {
+        width: 266px;
+        margin-left: 60px;
+      }
+    }
+    &_footer {
+      background-color: #eae9e8;
+      padding: 40px 50px 50px;
+      font-size: 1.5rem;
+      margin-top: 50px;
+      .title {
+        font-size: 1.6rem;
+      }
+      .text {
+        margin-top: 20px;
+      }
+      .border {
+        border-top: 1px solid #707070;
+        margin-top: 40px;
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Biodiversity {
+    &_lead {
+      padding: 150px 0;
+      h2 {
+        font-size: 2.8rem;
+      }
+      &_contents {
+        flex-direction: column;
+        margin-top: 70px;
+      }
+      &_text {
+        width: auto;
+        margin-left: 0;
+        margin-top: 70px;
+        p {
+          font-size: 1.5rem;
+        }
+        p + p {
+          margin-top: 30px;
+        }
+      }
+      &_image {
+        margin-left: 0;
+      }
+    }
+
+    &_voice {
+      &_contents {
+        flex-direction: column;
+        .text {
+          line-height: 2.4;
+          font-size: 1.5rem;
+          flex: 1;
+          order: 2;
+          margin-top: 40px;
+        }
+        .image {
+          width: 100%;
+          margin-left: unset;
+          order: 1;
+        }
+      }
+      &_footer {
+        padding: 40px 20px 40px;
+        .title {
+          font-size: 1.6rem;
+        }
+        .text {
+          margin-top: 20px;
+        }
+        .border {
+          border-top: 1px solid #707070;
+          margin-top: 40px;
+          padding-top: 30px;
+        }
+      }
+    }
+  }
+}
