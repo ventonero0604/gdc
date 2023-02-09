@@ -5,9 +5,18 @@
     margin-right: auto;
     padding: 0 20px;
   }
+  &_contents {
+    padding: 250px 0;
+    &-gray {
+      background-color: #eae9e8;
+    }
+  }
 }
 
 @media screen and (max-width: 767px) {
   .l {
+    &_contents {
+      padding: 130px 0;
+    }
   }
 }

@@ -19,16 +19,30 @@
 @import './component/sectionTitle.scss';
 @import './component/blockLink.scss';
 @import './component/scrollTop.scss';
+@import './component/marker.scss';
+@import './component/blockLabel.scss';
+@import './component/expand.scss';
 
 /* ui */
 @import './ui/header.scss';
 @import './ui/navi.scss';
 @import './ui/localMenu.scss';
 @import './ui/halfImageInternalLinks.scss';
+@import './ui/fullImageInternalLink.scss';
 @import './ui/imageList.scss';
 @import './ui/slider.scss';
+@import './ui/labelContents.scss';
 @import './ui/footer.scss';
+@import './ui/loader.scss';
+@import './ui/fullMenu.scss';
+@import './ui/verticalPageLinks.scss';
 
 /* pages */
 @import './pages/top.scss';
 @import './pages/case.scss';
+@import './pages/biodiversity.scss';
+@import './pages/price.scss';
+@import './pages/order.scss';
+@import './pages/soilproject.scss';
+@import './pages/about.scss';
+@import './pages/contact.scss';

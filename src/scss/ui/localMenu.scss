@@ -5,6 +5,19 @@
   background-color: $brown;
   height: 160px;
   padding: 0 60px;
+  position: relative;
+
+  &:after {
+    width: 357px;
+    height: 85px;
+    display: block;
+    content: '';
+    background-image: url(/img/img_local_menu.png);
+    background-size: contain;
+    top: -63px;
+    right: 30px;
+    position: absolute;
+  }
 
   &_content {
     width: 100%;
@@ -15,7 +28,10 @@
 
   &_title {
     font-size: 1.8rem;
-    font-family: 'Yu Mincho', 'YuMincho', serif;
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: white;
     margin-bottom: 20px;
   }
@@ -23,13 +39,18 @@
   &_list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     li + li {
       margin-left: 30px;
     }
     a {
       color: white;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
+    }
+    &-center {
+      justify-content: center;
+      li + li {
+        margin-left: 40px;
+      }
     }
   }
 
@@ -41,5 +62,42 @@
 
 @media screen and (max-width: 767px) {
   .LocalMenu {
+    height: auto;
+    padding: 50px 20px;
+    &:after {
+      width: 146px;
+      height: 35px;
+      background-image: url(/img/img_local_menu_sp.png);
+      top: -27px;
+      right: 10px;
+    }
+    &_title {
+      display: none;
+    }
+    &_content {
+      max-width: unset;
+      min-width: unset;
+      margin-top: unset;
+    }
+    &_list {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      li + li {
+        margin-left: 0;
+        margin-top: 24px;
+      }
+      a {
+        color: white;
+        font-size: 1.5rem;
+      }
+      &-center {
+        justify-content: center;
+        li + li {
+          margin-left: 0;
+          margin-top: 24px;
+        }
+      }
+    }
   }
 }

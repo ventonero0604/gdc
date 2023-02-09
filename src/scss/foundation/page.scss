@@ -10,11 +10,17 @@ body {
 }
 
 .yumincho {
-  font-family: 'Yu Mincho', 'YuMincho', serif;
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
   color: $black;
+}
+
+main {
+  overflow: hidden;
 }
 
 a,

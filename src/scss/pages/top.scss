@@ -1,19 +1,19 @@
 .Top {
+  opacity: 0;
   position: relative;
   &_main {
-    width: 1000px;
-    margin: 0 auto;
     top: 0;
     height: 100vh;
     overflow: hidden;
-    position: sticky;
+    margin: 0 auto;
+    padding-left: pxvw(170, 'pc');
     &_container {
       position: relative;
       overflow-y: scroll;
       -ms-overflow-style: none;
       height: 100vh;
       scrollbar-width: none;
-      padding-bottom: 200px;
+      padding-bottom: pxvw(300, 'pc');
       &_top {
         display: flex;
         align-items: center;
@@ -27,29 +27,57 @@
   }
   &_title {
     position: relative;
-    width: 488px;
+    width: pxvw(488, 'pc');
     h2 {
-      margin-bottom: 68px;
+      margin-bottom: pxvw(68, 'pc');
+      img {
+        width: pxvw(488, 'pc');
+      }
     }
     p {
-      line-height: 2;
-      margin-left: 30px;
-      font-size: 1.5rem;
+      line-height: 2.5;
+      margin-left: pxvw(30, 'pc');
+      font-size: pxvw(15, 'pc');
     }
   }
   &_lead {
-    margin-top: 430px;
+    margin-top: pxvw(430, 'pc');
     img {
-      margin-bottom: 110px;
+      margin-bottom: pxvw(110, 'pc');
+    }
+    p {
+      line-height: 2.4;
+    }
+    p + p {
+      margin-top: pxvw(60, 'pc');
     }
   }
   &_movie {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 532px;
-    height: 602px;
+    position: fixed;
+    top: 50%;
+    right: pxvw(160, 'pc');
+    width: pxvw(532, 'pc');
+    height: pxvw(602, 'pc');
+    transform: translateY(-50%);
+    z-index: -1;
     video {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      &:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(16, 57, 75, 0.3);
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
     }
   }
   &_contents {
@@ -76,11 +104,14 @@
       margin-left: 60px;
     }
     &_lead {
-      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
       font-size: 2.6rem;
     }
     &_text {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       margin-top: 30px;
       line-height: 2;
     }
@@ -98,5 +129,103 @@
 
 @media screen and (max-width: 767px) {
   .Top {
+    &_main {
+      height: auto;
+      padding: 150px 0 0;
+      &_container {
+        height: auto;
+        padding-bottom: 100px;
+        &_top {
+          height: auto;
+          max-width: 375px;
+          margin: 0 auto;
+        }
+      }
+    }
+    &_title {
+      position: relative;
+      width: 100%;
+      h1 {
+        margin-bottom: 60px;
+        position: relative;
+        padding-left: 20px;
+        img {
+          width: auto;
+        }
+        &:after {
+          position: absolute;
+          right: -30px;
+          top: 80px;
+          background-image: url(/img/img_top_main_bg_sp.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          width: 200px;
+          height: 244px;
+          display: block;
+          content: '';
+          z-index: 1;
+        }
+      }
+      p {
+        margin-left: 0;
+        padding: 0 20px;
+        font-size: 14px;
+      }
+    }
+    &_lead {
+      margin-top: 150px;
+      padding: 0 20px;
+      img {
+        margin-bottom: 110px;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      p + p {
+        margin-top: 50px;
+      }
+    }
+    &_movie {
+      display: none;
+    }
+    &_soilPJ {
+      background-image: url(/img/bg_top_soil_project.png);
+      width: 100%;
+      padding: 120px 0;
+      background-size: cover;
+      color: white;
+      margin-bottom: 150px;
+
+      &_header {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+      }
+      &_texts {
+        margin-left: 0;
+        margin: 70px 0 40px;
+      }
+      &_lead {
+        font-style: normal;
+        font-family: yu-mincho-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.6rem;
+      }
+      &_text {
+        font-size: 1.5rem;
+        margin-top: 30px;
+        line-height: 2;
+      }
+      &_footer {
+        font-size: 1.3rem;
+        line-height: 2;
+        margin-top: 40px;
+      }
+    }
+    &_imageSeparator {
+      margin: 150px 0 100px;
+    }
   }
 }

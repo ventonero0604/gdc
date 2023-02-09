@@ -137,5 +137,31 @@
 
 @media screen and (max-width: 767px) {
   .Slider {
+    .slick-slide + .slick-slide {
+      margin-left: 0;
+      padding: 0 10px;
+    }
+    .slick-prev,
+    .slick-next {
+      font-size: 0;
+      line-height: 0;
+      position: absolute;
+      bottom: unset;
+      top: 25%;
+      bottom: unset;
+      display: block;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+      cursor: pointer;
+      color: transparent;
+      border: none;
+      outline: none;
+      background: transparent;
+      z-index: 2;
+    }
   }
 }

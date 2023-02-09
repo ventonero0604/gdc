@@ -1,6 +1,9 @@
 .Case {
   &_list {
-    font-family: 'Yu Mincho', 'YuMincho', serif;
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -10,14 +13,15 @@
       margin: 230px 0;
     }
     &_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       .title {
         font-size: 2.2rem;
         margin-top: 30px;
       }
       .name {
-        font-size: 1.4rem;
-        display: flex;
-        align-items: center;
+        font-size: 1.6rem;
         margin: 30px 0 40px;
         span + span {
           margin-left: 14px;
@@ -35,13 +39,17 @@
         margin-right: 70px;
       }
       .texts {
-        font-family: 'Yu Mincho', 'YuMincho', serif;
+        font-style: normal;
+        font-family: yu-mincho-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        flex: 1;
       }
       .title {
         font-size: 3rem;
       }
       .detail {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         display: flex;
         align-items: baseline;
         margin: 60px 0 20px;
@@ -61,7 +69,7 @@
     }
 
     &_lead {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-top: 100px;
       line-height: 2;
     }
@@ -70,13 +78,17 @@
   &_interview {
     padding: 200px 0;
 
-    &-gray {
+    &:nth-of-type(2n + 1) {
       background-color: #eae9e8;
     }
 
     .title {
       font-size: 1.8rem;
-      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 2;
     }
     .contents {
       margin-top: 80px;
@@ -91,9 +103,12 @@
     .image {
       width: 450px;
       p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         margin-top: 20px;
         line-height: 2;
+      }
+      p + img {
+        margin-top: 40px;
       }
     }
   }
@@ -101,5 +116,103 @@
 
 @media screen and (max-width: 767px) {
   .Case {
+    &_list {
+      display: block;
+      margin-bottom: 150px;
+      &_title {
+        margin: 150px 0;
+      }
+      &_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title {
+          font-size: 1.8rem;
+        }
+        .name {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          margin: 30px 0 40px;
+          span + span {
+            margin-left: 0;
+            margin-top: 8px;
+          }
+        }
+        & + & {
+          margin-top: 100px;
+        }
+      }
+    }
+    &Detail {
+      &_main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        .image {
+          width: unset;
+          margin-right: 0;
+        }
+        .title {
+          font-size: 2.2rem;
+          margin-top: 40px;
+        }
+        .detail {
+          font-size: 1.5rem;
+          display: flex;
+          align-items: baseline;
+          margin: 40px 0 20px;
+          span + span {
+            margin-left: 14px;
+          }
+        }
+        .pref {
+          font-size: 1.5rem;
+        }
+        .name {
+          font-size: 1.5rem;
+        }
+        small {
+          font-size: 1.5rem;
+        }
+      }
+
+      &_lead {
+        margin-top: 80px;
+      }
+    }
+
+    &_interview {
+      padding: 130px 0;
+
+      &:nth-of-type(2n + 1) {
+        background-color: #eae9e8;
+      }
+
+      .title {
+        font-size: 1.8rem;
+        padding-left: 1.4em;
+        text-indent: -1.4em;
+      }
+      .contents {
+        margin-top: 80px;
+        gap: unset;
+        display: flex;
+        flex-direction: column;
+      }
+      .text {
+        width: unset;
+        line-height: 2;
+        order: 1;
+      }
+      .image {
+        width: unset;
+        margin-top: 50px;
+        order: 2;
+        p + img {
+          margin-top: 40px;
+        }
+      }
+    }
   }
 }

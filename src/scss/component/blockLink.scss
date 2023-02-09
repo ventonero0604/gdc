@@ -11,7 +11,10 @@
       display: flex;
       align-items: center;
       font-size: 1.8rem;
-      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
       &:after {
         display: block;
         content: '';
@@ -68,6 +71,40 @@
     }
   }
 
+  &-pdf,
+  &-word {
+    position: relative;
+    &:after {
+      display: block;
+      content: '';
+      background-image: url(/img/ico_pdf.svg);
+      background-size: contain;
+      width: 60px;
+      height: 38px;
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .BlockLink_text {
+      p {
+        font-size: 1.8rem;
+        &:after {
+          background-image: unset;
+        }
+      }
+      span {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &-word {
+    &:after {
+      background-image: url(/img/ico_word.svg);
+    }
+  }
+
   &:hover {
     p {
       &:after {
@@ -79,5 +116,40 @@
 
 @media screen and (max-width: 767px) {
   .BlockLink {
+    padding: 20px;
+    height: unset;
+    &_text {
+      p {
+        font-size: 1.6rem;
+        &:after {
+          width: 10px;
+          height: 10px;
+          background-image: url(/img/ico_arrow_small.svg);
+        }
+      }
+
+      span {
+        font-size: 1.2rem;
+        margin-top: 0;
+      }
+    }
+    &-pdf,
+    &-word {
+      &:after {
+        width: 50px;
+        height: 30px;
+        right: -5px;
+        top: -5px;
+        transform: unset;
+      }
+      .BlockLink_text {
+        p {
+          font-size: 1.6rem;
+        }
+        span {
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 }

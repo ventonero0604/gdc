@@ -1,11 +1,12 @@
 .ScrollDown {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   right: 40px;
   bottom: 20px;
   z-index: 2;
   overflow: hidden;
   height: 134px;
+  z-index: 0;
   img {
     margin-left: 4px;
     height: 41px;
@@ -30,17 +31,7 @@
 
 @media screen and (max-width: 767px) {
   .ScrollDown {
-    left: 20px;
-    height: 180px;
-    img {
-      width: 12px;
-    }
-    &:before {
-      height: 100px;
-    }
-    &:after {
-      height: 100px;
-    }
+    display: none;
   }
 }
 

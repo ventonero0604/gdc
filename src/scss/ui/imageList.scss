@@ -2,51 +2,140 @@
   margin-left: auto;
   margin-right: auto;
   .wrapper {
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 422px 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'titleArea imageArea'
+      'textArea imageArea';
   }
   li + li {
     margin-top: 150px;
   }
+  .title {
+    grid-area: titleArea;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 30px;
+  }
   .text {
-    .title {
-      font-size: 2.6rem;
-      font-family: 'Yu Mincho', 'YuMincho', serif;
-      margin-bottom: 30px;
-    }
+    grid-area: textArea;
     p {
       line-height: 2.2;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
+    }
+    p + p {
+      margin-top: 30px;
     }
   }
   .image {
+    grid-area: imageArea;
     margin-left: 100px;
     position: relative;
+    display: block;
     img {
       min-width: 448px;
       max-width: 448px;
     }
     .imageVerticalText {
       position: absolute;
-      left: -60px;
+      right: 95%;
       top: -40px;
       background-color: white;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
-      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
       line-height: 2;
       padding: 20px 5px;
+      span {
+        text-combine-upright: all;
+      }
     }
     .imageUnderText {
-      font-family: 'Yu Mincho', 'YuMincho', serif;
+      font-style: normal;
+      font-family: yu-mincho-pr6n, sans-serif;
+      font-weight: 400;
+      font-style: normal;
       margin-top: 16px;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
+    }
+    .imageUnderTextSmall {
+      margin-top: 16px;
+      font-size: 1.3rem;
+      &-indent {
+        padding-left: 40px;
+        span {
+          margin-left: -40px;
+        }
+      }
+    }
+    .borderText {
+      .item {
+        padding: 15px 0;
+        font-size: 1.5rem;
+      }
+      .item + .item {
+        border-top: 1px solid black;
+      }
     }
   }
 }
 
 @media screen and (max-width: 767px) {
   .ImageList {
+    .wrapper {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        'titleArea'
+        'imageArea'
+        'textArea';
+    }
+    li + li {
+      margin-top: 100px;
+    }
+    .title {
+      font-size: 2rem;
+      margin-bottom: 50px;
+      order: 1;
+    }
+    .text {
+      max-width: unset;
+    }
+    .image {
+      margin-left: 0;
+      position: relative;
+      margin-bottom: 40px;
+      order: 2;
+      img {
+        min-width: 100%;
+        max-width: 100%;
+      }
+      .imageVerticalText {
+        position: absolute;
+        left: 0;
+        right: unset;
+        top: -40px;
+        background-color: white;
+        -ms-writing-mode: horizontal-tb;
+        writing-mode: horizontal-tb;
+        font-style: normal;
+        font-family: yu-mincho-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 2;
+        padding: 5px 5px;
+        span {
+          text-combine-upright: all;
+        }
+      }
+    }
   }
 }

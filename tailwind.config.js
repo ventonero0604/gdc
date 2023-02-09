@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     spacing: {
+      0: '0',
       1: '4px',
       2: '8px',
       3: '12px',
@@ -21,11 +22,14 @@ module.exports = {
       14: '56px',
       15: '60px',
       16: '64px',
+      17: '68px',
       20: '80px',
+      22: '88px',
       23: '92px',
       24: '96px',
       25: '100px',
       30: '120px',
+      36: '132px',
       40: '160px',
       48: '192px',
       56: '224px',
@@ -33,10 +37,13 @@ module.exports = {
     },
     fontSize: {
       xs: '1.2rem',
-      sm: '1.4rem',
+      sm: '1.5rem',
       base: '1.6rem',
       lg: '1.8rem',
       xl: '2rem'
+    },
+    screens: {
+      sp: { max: '767px' }
     }
   },
   plugins: []

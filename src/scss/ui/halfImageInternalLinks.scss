@@ -2,19 +2,42 @@
   .wrapper {
     padding: 0 5px;
     display: flex;
-    font-family: 'Yu Mincho', 'YuMincho', serif;
+    font-style: normal;
+    font-family: yu-mincho-pr6n, sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   .imageLink {
     width: 50%;
     position: relative;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-service {
+      background-image: url(/img/img_footer_service.png);
+    }
+    &-project {
+      background-image: url(/img/img_footer_project.png);
+    }
+
+    .titleText {
+      font-size: pxvw(26, 'pc');
+      margin-bottom: 32px;
+    }
+    .lead {
+      font-size: 1.5rem;
+      margin-bottom: 50px;
+      line-height: 2;
+      font-family: -apple-system-subset, Helvetica, Hiragino Kaku Gothic ProN, sans-serif;
+    }
 
     .text {
-      color: white;
-      position: absolute;
-      left: pxvw(192, 'pc');
-      bottom: pxvw(130, 'pc');
-
       p {
         font-size: pxvw(16, 'pc');
         margin-bottom: pxvw(8, 'pc');
@@ -97,5 +120,61 @@
 
 @media screen and (max-width: 767px) {
   .HalfImageInternalLinks {
+    .wrapper {
+      padding: 0 5px;
+      flex-direction: column;
+    }
+    .imageLink {
+      height: 250px;
+      .titleText {
+        font-size: 2rem;
+        margin-bottom: 14px;
+      }
+      .lead {
+        margin-bottom: 20px;
+      }
+      .text {
+        p {
+          font-size: 14px;
+          margin-bottom: 8px;
+          &:after {
+            width: 10px;
+            height: 10px;
+            margin-left: 20px;
+            background-image: url(/img/ico_arrow_small_white.svg);
+          }
+        }
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+    .blockLink {
+      padding: 50px 0;
+      .text {
+        p {
+          font-size: 16px;
+          margin-bottom: 0;
+          &:after {
+            width: 10px;
+            height: 10px;
+            margin-left: 20px;
+            background-image: url(/img/ico_arrow_small.svg);
+          }
+        }
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+    .imageLink,
+    .blockLink {
+      width: 100%;
+    }
+    .imageLink + .imageLink,
+    .blockLink + .blockLink {
+      margin-left: 0;
+      margin-top: 5px;
+    }
   }
 }

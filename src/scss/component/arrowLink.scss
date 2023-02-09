@@ -3,7 +3,10 @@
   display: flex;
   align-items: center;
   line-height: 1;
-  font-family: 'Yu Mincho', 'YuMincho', serif;
+  font-style: normal;
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
   &:after {
     content: '';
@@ -46,5 +49,10 @@
 
 @media screen and (max-width: 767px) {
   .ArrowLink {
+    &-current {
+      &:before {
+        bottom: -6px;
+      }
+    }
   }
 }

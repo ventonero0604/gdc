@@ -19,5 +19,22 @@
 
 @media screen and (max-width: 767px) {
   .Main {
+    height: 500px;
+    padding: 0 30px;
+
+    &_contents {
+      margin: 0 auto;
+
+      &-case {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+
+      &-soil {
+        padding: 100px 0 0;
+      }
+    }
   }
 }
