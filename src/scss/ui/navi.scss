@@ -72,8 +72,11 @@
     display: flex;
     align-items: center;
     margin-left: 70px;
+    font-family: cormorant, serif;
+    font-weight: 600;
     a + a {
       margin-left: 14px;
+      margin-top: -4px;
     }
   }
 
