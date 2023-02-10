@@ -75,5 +75,8 @@
       justify-content: center;
       font-size: 1.2rem;
     }
+    &_lead + .VerticalPageLinks_link {
+      margin-bottom: 60px;
+    }
   }
 }
