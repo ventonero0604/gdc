@@ -34,16 +34,7 @@
   }
 
   &-current {
-    &:before {
-      content: '';
-      display: block;
-      height: 1px;
-      width: 100%;
-      background-color: white;
-      position: absolute;
-      left: 0;
-      bottom: -14px;
-    }
+    text-decoration: underline;
   }
 }
 
