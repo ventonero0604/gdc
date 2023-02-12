@@ -124,10 +124,13 @@
 
   &_imageSeparator {
     margin: 250px 0 200px;
+    img {
+      width: 100%;
+    }
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .Top {
     &_main {
       height: auto;

@@ -43,7 +43,7 @@ module.exports = {
       xl: '2rem'
     },
     screens: {
-      sp: { max: '767px' }
+      sp: { max: '1000px' }
     }
   },
   plugins: []
