@@ -28,6 +28,15 @@ $(function () {
             dots: false,
             draggable: true
           }
+        },
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 3,
+            centerPadding: '20px',
+            dots: false,
+            draggable: true
+          }
         }
       ]
     });
