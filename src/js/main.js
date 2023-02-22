@@ -34,7 +34,7 @@ $(function () {
           settings: {
             slidesToShow: 3,
             centerPadding: '20px',
-            dots: false,
+            dots: true,
             draggable: true
           }
         }

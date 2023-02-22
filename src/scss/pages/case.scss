@@ -117,6 +117,10 @@
         margin-top: 40px;
       }
     }
+
+    &_button {
+      margin-top: 160px;
+    }
   }
 }
 
@@ -218,6 +222,19 @@
         p + img {
           margin-top: 40px;
         }
+      }
+      &_button {
+        margin-top: 120px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Case {
+    &_interview {
+      &_button {
+        margin-top: 20px;
       }
     }
   }
