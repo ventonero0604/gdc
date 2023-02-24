@@ -27,7 +27,7 @@
       }
     }
     &_image {
-      margin-left: -152px;
+      width: 450px;
     }
   }
 
@@ -93,6 +93,7 @@
       }
       &_image {
         margin-left: 0;
+        width: unset;
       }
     }
 
